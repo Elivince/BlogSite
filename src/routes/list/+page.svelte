@@ -30,7 +30,7 @@
     };
 
     const goToMainPage = () => {
-        goto("/");
+        goto("BlogSite/");
     };
 
     onMount(() => {
