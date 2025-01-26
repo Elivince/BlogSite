@@ -61,7 +61,7 @@
     };
 
     const goToListPage = () => {
-        goto("BlogSite/list");
+        goto("/list");
     };
 </script>
 
