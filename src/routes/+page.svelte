@@ -6,7 +6,7 @@
     import BlogCard from "$lib/components/BlogCard.svelte";
     import { goto } from "$app/navigation";
 
-    const supabase = createClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY)
+    const supabase = createClient("https://wztiwulessrpzwbfdkrd.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind6dGl3dWxlc3NycHp3YmZka3JkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzc2OTI3NzMsImV4cCI6MjA1MzI2ODc3M30.KVKASn8AL5tCBvXSRAoqqNFrmFtXDM67RhGSHRDRZrI")
 
     let showAddBlog = $state(false);
 
